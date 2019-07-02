@@ -1023,8 +1023,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1822006}
   m_HandleRect: {fileID: 1822005}
   m_Direction: 0
-  m_Value: 0
-  m_Size: 0.9999998
+  m_Value: 1
+  m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -1990,12 +1990,12 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_BoolArgument
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 2020324965129061406, guid: 8083c11dbfa7e9a4396a392b3a43027a,
+    - target: {fileID: 2020324966742024228, guid: 8083c11dbfa7e9a4396a392b3a43027a,
         type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2020324966742024228, guid: 8083c11dbfa7e9a4396a392b3a43027a,
+    - target: {fileID: 2020324965129061406, guid: 8083c11dbfa7e9a4396a392b3a43027a,
         type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -2227,7 +2227,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 477333863}
   m_HandleRect: {fileID: 477333862}
   m_Direction: 2
-  m_Value: 1
+  m_Value: 0.99999976
   m_Size: 0.62125576
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -2766,6 +2766,7 @@ MonoBehaviour:
   - {fileID: 311092166}
   - {fileID: 418809128}
   - {fileID: 1490537140}
+  images: []
   paginaDelante: {fileID: 0}
   paginaDetras: {fileID: 0}
 --- !u!1 &894149296
@@ -3978,8 +3979,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   InputField: {fileID: 0}
   NivelACambiar: 0
+  longitud: 0
   inA: 00010101
-  outZ: 00010101
+  inB: 
+  inC: 
+  inD: 
+  outA: 
+  outB: 
+  escena: {fileID: 0}
+  pistas: {fileID: 0}
+  cambioNivel: {fileID: 0}
+  inputA: {fileID: 0}
+  inputB: {fileID: 0}
+  inputC: {fileID: 0}
+  inputD: {fileID: 0}
+  outputA: {fileID: 0}
+  outputB: {fileID: 0}
   And: {fileID: 1498842019006780, guid: 5b836a52afc0b9543a0d3f0c7bf82fd1, type: 3}
   Or: {fileID: 1365495498558354, guid: 740d938a3b7dcf940a13c5b002e8c3e3, type: 3}
   Not: {fileID: 1342058543364046, guid: f7ac777985c7a5d4e812d0d9a5bfa361, type: 3}
@@ -4033,7 +4048,7 @@ MonoBehaviour:
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 0.5
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -4811,8 +4826,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 326388750}
   m_HandleRect: {fileID: 326388749}
   m_Direction: 0
-  m_Value: 0
-  m_Size: 0.9999998
+  m_Value: 1
+  m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:

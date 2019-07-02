@@ -6,10 +6,13 @@ public class QuestionSelected : MonoBehaviour
 {
     public GameObject image;
     private bool active;
+    private GameObject parent;
 
+    
     // Start is called before the first frame update
     void Start()
     {
+
         active = false;
     }
 

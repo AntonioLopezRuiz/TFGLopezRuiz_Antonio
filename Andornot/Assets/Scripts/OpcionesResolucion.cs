@@ -7,18 +7,27 @@ public class OpcionesResolucion : MonoBehaviour
 
 
     public GameObject objetoConAudio;
+    public GameObject objetoConAudio2;
     private AudioSource audio;
+
+
 
     public void Awake()
     {
         audio = objetoConAudio.GetComponent<AudioSource>();
+
+
     }
 
     public void SetVolume(float volumen)
     {
         Debug.Log("Se ha llegao: " + audio.volume);
         audio.volume = volumen;
+
     }
+
+
+   
 
 
     public void ChangeResolution(int x, int y)

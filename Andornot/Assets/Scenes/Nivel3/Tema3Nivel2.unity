@@ -2905,6 +2905,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
       value: -445
       objectReference: {fileID: 0}
+    - target: {fileID: 1759201523949310458, guid: 9ce6b20d7c2d8d0429f84343d29801c6,
+        type: 3}
+      propertyPath: nivel
+      value: 58
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9ce6b20d7c2d8d0429f84343d29801c6, type: 3}
 --- !u!1 &1396329366
@@ -3276,16 +3281,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1836729179}
     m_Modifications:
-    - target: {fileID: 2020324965313928609, guid: 8083c11dbfa7e9a4396a392b3a43027a,
-        type: 3}
-      propertyPath: m_Name
-      value: Opciones
-      objectReference: {fileID: 0}
-    - target: {fileID: 2020324965313928609, guid: 8083c11dbfa7e9a4396a392b3a43027a,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 2020324965313928608, guid: 8083c11dbfa7e9a4396a392b3a43027a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3405,6 +3400,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1.9754388
+      objectReference: {fileID: 0}
+    - target: {fileID: 2020324965313928609, guid: 8083c11dbfa7e9a4396a392b3a43027a,
+        type: 3}
+      propertyPath: m_Name
+      value: Opciones
+      objectReference: {fileID: 0}
+    - target: {fileID: 2020324965313928609, guid: 8083c11dbfa7e9a4396a392b3a43027a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2020324966383371495, guid: 8083c11dbfa7e9a4396a392b3a43027a,
         type: 3}
@@ -3809,7 +3814,7 @@ MonoBehaviour:
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 1
+  m_MatchWidthOrHeight: 0.5
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
