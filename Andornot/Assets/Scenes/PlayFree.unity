@@ -1927,16 +1927,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1836729179}
     m_Modifications:
-    - target: {fileID: 2020324965313928609, guid: 8083c11dbfa7e9a4396a392b3a43027a,
-        type: 3}
-      propertyPath: m_Name
-      value: Opciones
-      objectReference: {fileID: 0}
-    - target: {fileID: 2020324965313928609, guid: 8083c11dbfa7e9a4396a392b3a43027a,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 2020324965313928608, guid: 8083c11dbfa7e9a4396a392b3a43027a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2056,6 +2046,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 2.0506
+      objectReference: {fileID: 0}
+    - target: {fileID: 2020324965313928609, guid: 8083c11dbfa7e9a4396a392b3a43027a,
+        type: 3}
+      propertyPath: m_Name
+      value: Opciones
+      objectReference: {fileID: 0}
+    - target: {fileID: 2020324965313928609, guid: 8083c11dbfa7e9a4396a392b3a43027a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2020324966383371495, guid: 8083c11dbfa7e9a4396a392b3a43027a,
         type: 3}
@@ -2446,7 +2446,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1090495237}
   m_HandleRect: {fileID: 1090495236}
   m_Direction: 0
-  m_Value: 1
+  m_Value: 0
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -2816,7 +2816,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1764877796}
   m_HandleRect: {fileID: 1764877795}
   m_Direction: 2
-  m_Value: 1.0000001
+  m_Value: 1
   m_Size: 0.37111175
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -5102,7 +5102,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1429973329}
   m_HandleRect: {fileID: 1429973328}
   m_Direction: 0
-  m_Value: 1
+  m_Value: 0
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -5304,7 +5304,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1115872490}
   m_HandleRect: {fileID: 1115872489}
   m_Direction: 2
-  m_Value: 0.99999976
+  m_Value: 1.0000002
   m_Size: 0.62125576
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -5487,6 +5487,17 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
       value: -445
       objectReference: {fileID: 0}
+    - target: {fileID: 1759201523949310458, guid: 9ce6b20d7c2d8d0429f84343d29801c6,
+        type: 3}
+      propertyPath: nivel
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1759201524956656407, guid: 9ce6b20d7c2d8d0429f84343d29801c6,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: e41c366b096653047935f3c6c67fd872,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9ce6b20d7c2d8d0429f84343d29801c6, type: 3}
 --- !u!1 &2137747917
